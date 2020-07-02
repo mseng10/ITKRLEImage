@@ -1,6 +1,8 @@
 ITKRLEImage
 ===========
 
+.. image:: https://github.com/KitwareMedical/ITKRLEImage/workflows/Build,%20test,%20package/badge.svg
+
 .. |CircleCI| image:: https://circleci.com/gh/KitwareMedical/ITKRLEImage.svg?style=shield
     :target: https://circleci.com/gh/KitwareMedical/ITKRLEImage
 
