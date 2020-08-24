@@ -142,7 +142,7 @@ class RegionOfInterestImageFilter<RLEImage<TPixelIn, VImageDimension, CounterTyp
                               RLEImage<TPixelOut, VImageDimension, CounterTypeOut>>
 {
 public:
-  ITK_DISALLOW_COPY_AND_ASSIGN( RegionOfInterestImageFilter );
+  ITK_DISALLOW_COPY_AND_ASSIGN(RegionOfInterestImageFilter);
 
   /** Standard class type alias. */
   using Self = RegionOfInterestImageFilter;
@@ -220,7 +220,6 @@ protected:
   DynamicThreadedGenerateData(const RegionType & outputRegionForThread) override;
 
 private:
-
   RegionType m_RegionOfInterest;
 };
 
